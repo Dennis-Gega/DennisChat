@@ -1,0 +1,94 @@
+.auth {
+    text-align: center;
+    margin-top: 30vh;
+    color: #e0dfdf;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    margin-top: -30vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 20vh;
+}
+
+header h2 {
+    margin-left: 20px;
+}
+
+header div {
+    margin-right: 20px;
+}
+
+.login-button {
+    border: 3px solid #f3f1f1;
+    color: #f3f1f1;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 6vh;
+    width: 7vw;
+    margin-right: 10px;
+    cursor: pointer; 
+}
+
+.signup-button {
+    border: 3px solid #f3f1f1;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f3f1f1;
+    border-radius: 5px;
+    height: 6vh;
+    width: 7vw;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.auth-title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: -4px;
+}
+
+.auth-description {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.auth-button {
+    background-color: transparent;
+    color: #e0dfdf;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 2px solid #e0dfdf;
+    height: 8vh;
+    width: 15vw;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.auth-button:hover, .login-button:hover, .signup-button:hover {
+    opacity: .90;
+}
+
+.auth-button:active, .login-button:hover, .signup-button:hover {
+    opacity: .8;
+}
+
+footer {
+    display: flex;
+    margin-top: 29vh;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: #e0dfdf;
+}
+

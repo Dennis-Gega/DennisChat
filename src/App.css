@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(337deg 100% 43%) 44%,
+    hsl(357deg 91% 59%) 56%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(34deg 100% 53%) 78%,
+    hsl(45deg 100% 50%) 89%,
+    hsl(55deg 100% 50%) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.room {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color:#36454F;
+ height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+  45deg,
+  hsl(240deg 62% 45%) 0%,
+  hsl(270deg 71% 39%) 11%,
+  hsl(290deg 92% 31%) 22%,
+  hsl(305deg 100% 29%) 33%,
+  hsl(315deg 100% 32%) 44%,
+  hsl(323deg 100% 33%) 56%,
+  hsl(330deg 91% 36%) 67%,
+  hsl(340deg 70% 41%) 78%,
+  hsl(350deg 57% 44%) 89%,
+  hsl(0deg 47% 46%) 100%
+);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.room-box {
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 40vw;
+    padding: 20px;
+    margin-top: 20vh;
+    
+} 
+
+.room label {
+    color: #e0dfdf;
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
 }
 
-.App-link {
-  color: #61dafb;
+.room-input {
+    height: 4vh;
+    width: 20vw;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.room-input-btn {
+    background-color: rgb(225, 225, 225);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sign-out button {
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
 }

@@ -1,0 +1,54 @@
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    align-items: center;
+    color: white;
+}
+
+.messages {
+    border: 2px solid white;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 30vw;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.new-message-input {
+    width: 41.3vw;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.send-button {
+    margin-left: 10px;
+    width: 9.4vw;
+    height: 4.7vh;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent; 
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: white;
+  }
+
+.sign-out-button {
+    margin-top: 10vh;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 10vw;
+    padding: 10px;
+}
